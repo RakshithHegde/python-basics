@@ -19,4 +19,19 @@ print(e[2])
 
 for x in "babayaga":
     print(x)
-    
+
+#to calculate the length of a string use len function
+r= "Good game" 
+print(len(r))
+
+#searching a keyword in string can be done by using in keyword
+text = "Rolls royce is my dream car"
+print("royce" in text)
+
+#this can also be done by using if loop
+text = "Rolls royce is my dream car"
+if "royce" in text:
+    print("yes ,it is present")
+#to check if a word is not present
+text= "Audi is a cheap company"
+print("costly" not in text)    
